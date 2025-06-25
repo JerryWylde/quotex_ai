@@ -1,0 +1,134 @@
+2025-06-07 23:42:13 [INFO] \U0001f680 Starting live predictor...
+2025-06-07 23:42:13 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:42:13 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-07 23:42:16 [INFO] \u2705 All models loaded successfully.
+2025-06-07 23:42:16 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:42:16 [INFO] \u2705 TradeExecutor initialized.
+2025-06-07 23:42:16 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-07 23:46:55 [INFO] \U0001f680 Starting live predictor...
+2025-06-07 23:46:55 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:46:55 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-07 23:46:57 [INFO] \u2705 All models loaded successfully.
+2025-06-07 23:46:57 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:46:57 [INFO] \u2705 TradeExecutor initialized.
+2025-06-07 23:46:57 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-07 23:49:26 [INFO] \U0001f680 Starting live predictor...
+2025-06-07 23:49:26 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:49:26 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-07 23:49:29 [INFO] \u2705 All models loaded successfully.
+2025-06-07 23:49:29 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-07 23:49:29 [INFO] \u2705 TradeExecutor initialized.
+2025-06-07 23:49:29 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-08 11:46:34 [INFO] \U0001f680 Starting live predictor...
+2025-06-08 11:46:34 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:46:34 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-08 11:46:37 [INFO] \u2705 All models loaded successfully.
+2025-06-08 11:46:37 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:46:37 [INFO] \u2705 TradeExecutor initialized.
+2025-06-08 11:46:37 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 92, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-08 11:47:49 [INFO] \U0001f680 Starting live predictor...
+2025-06-08 11:47:49 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:47:49 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-08 11:47:50 [INFO] \u2705 All models loaded successfully.
+2025-06-08 11:47:50 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:47:50 [INFO] \u2705 TradeExecutor initialized.
+2025-06-08 11:47:50 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-08 11:59:42 [INFO] \U0001f680 Starting live predictor...
+2025-06-08 11:59:42 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:59:42 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-08 11:59:46 [INFO] \u2705 All models loaded successfully.
+2025-06-08 11:59:46 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 11:59:46 [INFO] \u2705 TradeExecutor initialized.
+2025-06-08 11:59:46 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-08 11:59:47 [WARNING] Telegram message failed: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Unsupported start tag \"frozen\" at byte offset 584"}
+2025-06-08 12:00:45 [INFO] \U0001f680 Starting live predictor...
+2025-06-08 12:00:45 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 12:00:45 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-08 12:00:48 [INFO] \u2705 All models loaded successfully.
+2025-06-08 12:00:48 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 12:00:48 [INFO] \u2705 TradeExecutor initialized.
+2025-06-08 12:00:48 [ERROR] \u274c Exception in live predictor loop: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\live_predictor.py", line 95, in main_loop
+    latest_candle = fetch_binance_data(symbol="BTCUSDT", interval="1m", lookback_days=0, save_path=None)
+  File "C:\Users\jeral\quotex_ai\modules\data_fetch.py", line 63, in fetch_binance_data
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<frozen ntpath>", line 263, in dirname
+  File "<frozen ntpath>", line 227, in split
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+
+2025-06-08 12:00:50 [WARNING] Telegram message failed: {"ok":false,"error_code":400,"description":"Bad Request: can't parse entities: Unsupported start tag \"frozen\" at byte offset 584"}
+2025-06-08 12:12:26 [INFO] \U0001f680 Starting live predictor...
+2025-06-08 12:12:26 [INFO] \U0001f4b0 Wallet initialized: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 12:12:26 [INFO] \u2705 Loaded historical data: 10080 rows.
+2025-06-08 12:12:28 [INFO] \u2705 All models loaded successfully.
+2025-06-08 12:12:28 [INFO] \U0001f4b0 Wallet loaded: {'total_profits_earned': 0.0, 'current_loss': 0.0, 'current_invest_amount': 70.0, 'consecutive_losses': 0, 'trades_executed': 0}
+2025-06-08 12:12:28 [INFO] \u2705 TradeExecutor initialized.
+2025-06-08 12:12:28 [WARNING] \u26a0\ufe0f No new candle fetched this cycle.
+2025-06-08 12:12:38 [WARNING] \u26a0\ufe0f No new candle fetched this cycle.
+2025-06-08 12:12:48 [WARNING] \u26a0\ufe0f No new candle fetched this cycle.
+2025-06-08 12:12:50 [INFO] \U0001f6d1 Keyboard interrupt received, shutting down live predictor.
+2025-06-08 12:12:50 [INFO] Closing TradeExecutor...
+2025-06-08 12:12:50 [INFO] \u2705 TradeExecutor closed cleanly.
+2025-06-08 12:12:50 [INFO] \U0001f3c1 Live predictor stopped.

@@ -1,0 +1,13 @@
+2025-06-06 19:49:04,446 [INFO]  Starting Daily Auto-Pipeline (Quotex AI)
+2025-06-06 19:49:04,447 [INFO]  Fetching fresh BTC 1-min data...
+2025-06-06 19:49:11,624 [INFO]  Starting: Run model training pipeline
+2025-06-06 19:49:11,788 [ERROR]  Failed: Run model training pipeline (exit code: 2)
+2025-06-06 19:49:11,789 [ERROR] Pipeline failed with error: Step failed: Run model training pipeline
+Traceback (most recent call last):
+  File "C:\Users\jeral\quotex_ai\modules\daily_auto_pipeline.py", line 38, in main
+    run_step("Run model training pipeline", "python run_training_pipeline.py")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jeral\quotex_ai\modules\daily_auto_pipeline.py", line 26, in run_step
+    raise RuntimeError(f"Step failed: {description}")
+RuntimeError: Step failed: Run model training pipeline
+2025-06-06 19:49:11,794 [INFO]  Daily Auto-Pipeline finished in 7.35 seconds
